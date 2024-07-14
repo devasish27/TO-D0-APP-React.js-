@@ -1,0 +1,34 @@
+/* App.css */
+
+/* Centering the todo list title */
+.todo-list-title {
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Styling the input field and buttons */
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  border-radius: 5px;
+}
+
+.input-group button {
+  margin-top: 10px;
+}
+
+/* Styling the todo items */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-item button {
+  margin-right: 10px;
+}
